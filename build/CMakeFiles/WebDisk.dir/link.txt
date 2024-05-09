@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/WebDisk.dir/src/main.cpp.o  -o ../bin/WebDisk -lpthread -lworkflow -lwfrest -lssl -lcrypt -lcrypto 

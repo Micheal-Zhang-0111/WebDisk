@@ -1,0 +1,3 @@
+/home/micheal/CppBoost/WebDisk/build/CMakeFiles/rebuild_cache.dir
+/home/micheal/CppBoost/WebDisk/build/CMakeFiles/WebDisk.dir
+/home/micheal/CppBoost/WebDisk/build/CMakeFiles/edit_cache.dir
