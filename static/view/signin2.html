@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Login</h2>
+        <div class="input-box">
+            <label for="username">username:</label>
+            <input id="username" type="text"/>
+        </div>
+        <div class="input-box">
+            <label for="password">password:</label>
+            <input id="password" type="password"/>
+        </div>
+        <div class="btn-box">
+            <a href>forget password?</a>
+            <div>
+                <button onclick="onSignin()">Sign in</button>
+                <button>Sign up</button>
+            </div>
+        </div>
+    </div>
+
+<!-- <script type="text/javascript">
+
+</script> -->
+</body>
+
+<script lang="javascript">
+    function onSignin() {
+    //   console.log(resp.data.Location);
+      var username = document.getElementById('username');
+      var password = document.getElementById('password');
+      $.ajax({
+        url: "/user/signin",
+        type: "POST",
+        data: {
+          "username": username.value,
+          "password": password.value
+        },        
+        error: function (jqXHR, textStatus, errorThrown) {
+          if (textStatus == "error") {
+            alert(textStatus + " : " + errorThrown);
+          } else {
+            alert(textStatus);
+          }
+        },
+        success: function (body, textStatus, jqXHR) {
+          if (body == 'PASSWORD ERROR') {
+            // 失败后弹出提示
+            alert(body);
+          }
+          else{
+            var resp = JSON.parse(body);
+            localStorage.setItem("token", resp.data.Token);
+            localStorage.setItem("username", resp.data.Username);
+            console.log(resp.data.Location);
+            console.log(resp.data.Token);
+            window.location.href = resp.data.Location;
+          }
+          
+        }
+      });
+    }
+</script>
+
+</html>

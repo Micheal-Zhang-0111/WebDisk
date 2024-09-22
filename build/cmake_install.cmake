@@ -1,4 +1,4 @@
-# Install script for directory: /home/micheal/CppBoost/WebDisk
+# Install script for directory: /home/micheal/CppBoost/WebDisk_OSS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/micheal/CppBoost/WebDisk/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/micheal/CppBoost/WebDisk_OSS/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

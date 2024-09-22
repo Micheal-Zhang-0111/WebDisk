@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micheal/CppBoost/WebDisk
+CMAKE_SOURCE_DIR = /home/micheal/CppBoost/WebDisk_OSS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micheal/CppBoost/WebDisk/build
+CMAKE_BINARY_DIR = /home/micheal/CppBoost/WebDisk_OSS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micheal/CppBoost/WebDisk/build/CMakeFiles /home/micheal/CppBoost/WebDisk/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles /home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/micheal/CppBoost/WebDisk/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,141 @@ WebDisk/fast:
 	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/build
 .PHONY : WebDisk/fast
 
+src/WebCloudHome.o: src/WebCloudHome.cpp.o
+
+.PHONY : src/WebCloudHome.o
+
+# target to build an object file
+src/WebCloudHome.cpp.o:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o
+.PHONY : src/WebCloudHome.cpp.o
+
+src/WebCloudHome.i: src/WebCloudHome.cpp.i
+
+.PHONY : src/WebCloudHome.i
+
+# target to preprocess a source file
+src/WebCloudHome.cpp.i:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.i
+.PHONY : src/WebCloudHome.cpp.i
+
+src/WebCloudHome.s: src/WebCloudHome.cpp.s
+
+.PHONY : src/WebCloudHome.s
+
+# target to generate assembly for a file
+src/WebCloudHome.cpp.s:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.s
+.PHONY : src/WebCloudHome.cpp.s
+
+src/WebCloudLogin.o: src/WebCloudLogin.cpp.o
+
+.PHONY : src/WebCloudLogin.o
+
+# target to build an object file
+src/WebCloudLogin.cpp.o:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o
+.PHONY : src/WebCloudLogin.cpp.o
+
+src/WebCloudLogin.i: src/WebCloudLogin.cpp.i
+
+.PHONY : src/WebCloudLogin.i
+
+# target to preprocess a source file
+src/WebCloudLogin.cpp.i:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.i
+.PHONY : src/WebCloudLogin.cpp.i
+
+src/WebCloudLogin.s: src/WebCloudLogin.cpp.s
+
+.PHONY : src/WebCloudLogin.s
+
+# target to generate assembly for a file
+src/WebCloudLogin.cpp.s:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.s
+.PHONY : src/WebCloudLogin.cpp.s
+
+src/WebCloudServer.o: src/WebCloudServer.cpp.o
+
+.PHONY : src/WebCloudServer.o
+
+# target to build an object file
+src/WebCloudServer.cpp.o:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o
+.PHONY : src/WebCloudServer.cpp.o
+
+src/WebCloudServer.i: src/WebCloudServer.cpp.i
+
+.PHONY : src/WebCloudServer.i
+
+# target to preprocess a source file
+src/WebCloudServer.cpp.i:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.i
+.PHONY : src/WebCloudServer.cpp.i
+
+src/WebCloudServer.s: src/WebCloudServer.cpp.s
+
+.PHONY : src/WebCloudServer.s
+
+# target to generate assembly for a file
+src/WebCloudServer.cpp.s:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.s
+.PHONY : src/WebCloudServer.cpp.s
+
+src/WebCloudSignup.o: src/WebCloudSignup.cpp.o
+
+.PHONY : src/WebCloudSignup.o
+
+# target to build an object file
+src/WebCloudSignup.cpp.o:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o
+.PHONY : src/WebCloudSignup.cpp.o
+
+src/WebCloudSignup.i: src/WebCloudSignup.cpp.i
+
+.PHONY : src/WebCloudSignup.i
+
+# target to preprocess a source file
+src/WebCloudSignup.cpp.i:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.i
+.PHONY : src/WebCloudSignup.cpp.i
+
+src/WebCloudSignup.s: src/WebCloudSignup.cpp.s
+
+.PHONY : src/WebCloudSignup.s
+
+# target to generate assembly for a file
+src/WebCloudSignup.cpp.s:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.s
+.PHONY : src/WebCloudSignup.cpp.s
+
+src/WebCloudUpload.o: src/WebCloudUpload.cpp.o
+
+.PHONY : src/WebCloudUpload.o
+
+# target to build an object file
+src/WebCloudUpload.cpp.o:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o
+.PHONY : src/WebCloudUpload.cpp.o
+
+src/WebCloudUpload.i: src/WebCloudUpload.cpp.i
+
+.PHONY : src/WebCloudUpload.i
+
+# target to preprocess a source file
+src/WebCloudUpload.cpp.i:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.i
+.PHONY : src/WebCloudUpload.cpp.i
+
+src/WebCloudUpload.s: src/WebCloudUpload.cpp.s
+
+.PHONY : src/WebCloudUpload.s
+
+# target to generate assembly for a file
+src/WebCloudUpload.cpp.s:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.s
+.PHONY : src/WebCloudUpload.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -150,6 +285,60 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mqConsumer.o: src/mqConsumer.cpp.o
+
+.PHONY : src/mqConsumer.o
+
+# target to build an object file
+src/mqConsumer.cpp.o:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o
+.PHONY : src/mqConsumer.cpp.o
+
+src/mqConsumer.i: src/mqConsumer.cpp.i
+
+.PHONY : src/mqConsumer.i
+
+# target to preprocess a source file
+src/mqConsumer.cpp.i:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.i
+.PHONY : src/mqConsumer.cpp.i
+
+src/mqConsumer.s: src/mqConsumer.cpp.s
+
+.PHONY : src/mqConsumer.s
+
+# target to generate assembly for a file
+src/mqConsumer.cpp.s:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.s
+.PHONY : src/mqConsumer.cpp.s
+
+src/mqProducer.o: src/mqProducer.cpp.o
+
+.PHONY : src/mqProducer.o
+
+# target to build an object file
+src/mqProducer.cpp.o:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o
+.PHONY : src/mqProducer.cpp.o
+
+src/mqProducer.i: src/mqProducer.cpp.i
+
+.PHONY : src/mqProducer.i
+
+# target to preprocess a source file
+src/mqProducer.cpp.i:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqProducer.cpp.i
+.PHONY : src/mqProducer.cpp.i
+
+src/mqProducer.s: src/mqProducer.cpp.s
+
+.PHONY : src/mqProducer.s
+
+# target to generate assembly for a file
+src/mqProducer.cpp.s:
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqProducer.cpp.s
+.PHONY : src/mqProducer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... WebDisk"
 	@echo "... edit_cache"
+	@echo "... src/WebCloudHome.o"
+	@echo "... src/WebCloudHome.i"
+	@echo "... src/WebCloudHome.s"
+	@echo "... src/WebCloudLogin.o"
+	@echo "... src/WebCloudLogin.i"
+	@echo "... src/WebCloudLogin.s"
+	@echo "... src/WebCloudServer.o"
+	@echo "... src/WebCloudServer.i"
+	@echo "... src/WebCloudServer.s"
+	@echo "... src/WebCloudSignup.o"
+	@echo "... src/WebCloudSignup.i"
+	@echo "... src/WebCloudSignup.s"
+	@echo "... src/WebCloudUpload.o"
+	@echo "... src/WebCloudUpload.i"
+	@echo "... src/WebCloudUpload.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mqConsumer.o"
+	@echo "... src/mqConsumer.i"
+	@echo "... src/mqConsumer.s"
+	@echo "... src/mqProducer.o"
+	@echo "... src/mqProducer.i"
+	@echo "... src/mqProducer.s"
 .PHONY : help
 
 

@@ -4,7 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/micheal/CppBoost/WebDisk/src/main.cpp" "/home/micheal/CppBoost/WebDisk/build/CMakeFiles/WebDisk.dir/src/main.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/WebCloudHome.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/WebCloudLogin.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/WebCloudServer.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/WebCloudSignup.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/WebCloudUpload.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/main.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/main.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/mqConsumer.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o"
+  "/home/micheal/CppBoost/WebDisk_OSS/src/mqProducer.cpp" "/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

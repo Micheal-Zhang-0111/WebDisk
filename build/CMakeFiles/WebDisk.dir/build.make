@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/micheal/CppBoost/WebDisk
+CMAKE_SOURCE_DIR = /home/micheal/CppBoost/WebDisk_OSS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/micheal/CppBoost/WebDisk/build
+CMAKE_BINARY_DIR = /home/micheal/CppBoost/WebDisk_OSS/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WebDisk.dir/depend.make
@@ -57,18 +57,138 @@ include CMakeFiles/WebDisk.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/WebDisk.dir/flags.make
 
+CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o: CMakeFiles/WebDisk.dir/flags.make
+CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o: ../src/WebCloudHome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudHome.cpp
+
+CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudHome.cpp > CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.i
+
+CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudHome.cpp -o CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.s
+
+CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.requires:
+
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.requires
+
+CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.provides: CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.requires
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.provides.build
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.provides
+
+CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o
+
+
+CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o: CMakeFiles/WebDisk.dir/flags.make
+CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o: ../src/WebCloudLogin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudLogin.cpp
+
+CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudLogin.cpp > CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.i
+
+CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudLogin.cpp -o CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.s
+
+CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.requires:
+
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.requires
+
+CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.provides: CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.requires
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.provides.build
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.provides
+
+CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o
+
+
+CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o: CMakeFiles/WebDisk.dir/flags.make
+CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o: ../src/WebCloudServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudServer.cpp
+
+CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudServer.cpp > CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.i
+
+CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudServer.cpp -o CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.s
+
+CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.requires:
+
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.requires
+
+CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.provides: CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.provides.build
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.provides
+
+CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o
+
+
+CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o: CMakeFiles/WebDisk.dir/flags.make
+CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o: ../src/WebCloudSignup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudSignup.cpp
+
+CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudSignup.cpp > CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.i
+
+CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudSignup.cpp -o CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.s
+
+CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.requires:
+
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.requires
+
+CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.provides: CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.requires
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.provides.build
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.provides
+
+CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o
+
+
+CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o: CMakeFiles/WebDisk.dir/flags.make
+CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o: ../src/WebCloudUpload.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudUpload.cpp
+
+CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudUpload.cpp > CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.i
+
+CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/WebCloudUpload.cpp -o CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.s
+
+CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.requires:
+
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.requires
+
+CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.provides: CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.requires
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.provides.build
+.PHONY : CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.provides
+
+CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o
+
+
 CMakeFiles/WebDisk.dir/src/main.cpp.o: CMakeFiles/WebDisk.dir/flags.make
 CMakeFiles/WebDisk.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WebDisk.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/main.cpp.o -c /home/micheal/CppBoost/WebDisk/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/WebDisk.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/main.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/main.cpp
 
 CMakeFiles/WebDisk.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk/src/main.cpp > CMakeFiles/WebDisk.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/main.cpp > CMakeFiles/WebDisk.dir/src/main.cpp.i
 
 CMakeFiles/WebDisk.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk/src/main.cpp -o CMakeFiles/WebDisk.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/main.cpp -o CMakeFiles/WebDisk.dir/src/main.cpp.s
 
 CMakeFiles/WebDisk.dir/src/main.cpp.o.requires:
 
@@ -81,17 +201,79 @@ CMakeFiles/WebDisk.dir/src/main.cpp.o.provides: CMakeFiles/WebDisk.dir/src/main.
 CMakeFiles/WebDisk.dir/src/main.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/main.cpp.o
 
 
+CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o: CMakeFiles/WebDisk.dir/flags.make
+CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o: ../src/mqConsumer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/mqConsumer.cpp
+
+CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/mqConsumer.cpp > CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.i
+
+CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/mqConsumer.cpp -o CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.s
+
+CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.requires:
+
+.PHONY : CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.requires
+
+CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.provides: CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.provides.build
+.PHONY : CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.provides
+
+CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o
+
+
+CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o: CMakeFiles/WebDisk.dir/flags.make
+CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o: ../src/mqProducer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o -c /home/micheal/CppBoost/WebDisk_OSS/src/mqProducer.cpp
+
+CMakeFiles/WebDisk.dir/src/mqProducer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebDisk.dir/src/mqProducer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/micheal/CppBoost/WebDisk_OSS/src/mqProducer.cpp > CMakeFiles/WebDisk.dir/src/mqProducer.cpp.i
+
+CMakeFiles/WebDisk.dir/src/mqProducer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebDisk.dir/src/mqProducer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/micheal/CppBoost/WebDisk_OSS/src/mqProducer.cpp -o CMakeFiles/WebDisk.dir/src/mqProducer.cpp.s
+
+CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.requires:
+
+.PHONY : CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.requires
+
+CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.provides: CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/WebDisk.dir/build.make CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.provides.build
+.PHONY : CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.provides
+
+CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.provides.build: CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o
+
+
 # Object files for target WebDisk
 WebDisk_OBJECTS = \
-"CMakeFiles/WebDisk.dir/src/main.cpp.o"
+"CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o" \
+"CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o" \
+"CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o" \
+"CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o" \
+"CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o" \
+"CMakeFiles/WebDisk.dir/src/main.cpp.o" \
+"CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o" \
+"CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o"
 
 # External object files for target WebDisk
 WebDisk_EXTERNAL_OBJECTS =
 
+../bin/WebDisk: CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o
+../bin/WebDisk: CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o
+../bin/WebDisk: CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o
+../bin/WebDisk: CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o
+../bin/WebDisk: CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o
 ../bin/WebDisk: CMakeFiles/WebDisk.dir/src/main.cpp.o
+../bin/WebDisk: CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o
+../bin/WebDisk: CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o
 ../bin/WebDisk: CMakeFiles/WebDisk.dir/build.make
 ../bin/WebDisk: CMakeFiles/WebDisk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/micheal/CppBoost/WebDisk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/WebDisk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/WebDisk"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WebDisk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +281,14 @@ CMakeFiles/WebDisk.dir/build: ../bin/WebDisk
 
 .PHONY : CMakeFiles/WebDisk.dir/build
 
+CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/WebCloudHome.cpp.o.requires
+CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/WebCloudLogin.cpp.o.requires
+CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/WebCloudServer.cpp.o.requires
+CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/WebCloudSignup.cpp.o.requires
+CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/WebCloudUpload.cpp.o.requires
 CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/main.cpp.o.requires
+CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/mqConsumer.cpp.o.requires
+CMakeFiles/WebDisk.dir/requires: CMakeFiles/WebDisk.dir/src/mqProducer.cpp.o.requires
 
 .PHONY : CMakeFiles/WebDisk.dir/requires
 
@@ -108,6 +297,6 @@ CMakeFiles/WebDisk.dir/clean:
 .PHONY : CMakeFiles/WebDisk.dir/clean
 
 CMakeFiles/WebDisk.dir/depend:
-	cd /home/micheal/CppBoost/WebDisk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micheal/CppBoost/WebDisk /home/micheal/CppBoost/WebDisk /home/micheal/CppBoost/WebDisk/build /home/micheal/CppBoost/WebDisk/build /home/micheal/CppBoost/WebDisk/build/CMakeFiles/WebDisk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/micheal/CppBoost/WebDisk_OSS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/micheal/CppBoost/WebDisk_OSS /home/micheal/CppBoost/WebDisk_OSS /home/micheal/CppBoost/WebDisk_OSS/build /home/micheal/CppBoost/WebDisk_OSS/build /home/micheal/CppBoost/WebDisk_OSS/build/CMakeFiles/WebDisk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/WebDisk.dir/depend
 

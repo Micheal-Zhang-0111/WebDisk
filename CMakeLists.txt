@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(WebDisk)
+project(WebDisk_OSS)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -Wextra -fno-rtti")
 
+# 添加包含路径
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # 设置可执行文件生成到哪里
@@ -24,4 +25,8 @@ target_link_libraries(WebDisk
     crypto
     alibabacloud-oss-cpp-sdk
     curl
+    SimpleAmqpClient
+    srpc
+    protobuf
+    ppconsul
 )
